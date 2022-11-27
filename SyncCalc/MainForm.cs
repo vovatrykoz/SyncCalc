@@ -32,7 +32,12 @@ namespace SyncCalc
             rdioBPM.Checked = true;
 
             cmbFpsSelector.Items.Add("24");
+            cmbFpsSelector.Items.Add("25");
+            cmbFpsSelector.Items.Add("29,97");
             cmbFpsSelector.Items.Add("30");
+            cmbFpsSelector.Items.Add("48");
+            cmbFpsSelector.Items.Add("50");
+            cmbFpsSelector.Items.Add("60");
 
             cmbFpsSelector.SelectedIndex = 0;
         }
